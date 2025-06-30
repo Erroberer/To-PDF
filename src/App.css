@@ -348,3 +348,75 @@ body,
     border-radius: 8px;
   }
 }
+
+#google_translate_element {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-right: 28px;
+}
+
+.goog-te-combo {
+  padding: 8px 22px;
+  border-radius: 18px;
+  background: #fff;
+  border: 1.5px solid #f0f1f3;
+  font-size: 1.12rem;
+  color: #232b3a;
+  font-weight: 600;
+  box-shadow: 0 4px 20px 0 #a9b4c221;
+  outline: none;
+  transition: border-color 0.18s, box-shadow 0.18s;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.goog-te-combo:focus {
+  border-color: #f4a361;
+  box-shadow: 0 6px 24px 0 #f4a36117;
+}
+
+/* Select kutusunun sağındaki ok işaretini gizle (opsiyonel, modernleştirmek için) */
+.goog-te-combo::-ms-expand { display: none; }
+.goog-te-combo::-webkit-inner-spin-button,
+.goog-te-combo::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.goog-logo-link, .goog-te-gadget-icon {
+  display: none !important;
+}
+
+/* Kutuya ekstra modern gölge verelim */
+.goog-te-combo {
+  box-shadow: 0 8px 28px 0 #232b3a12;
+}
+
+div#google_translate_element {
+  margin: 0px 0;
+  border-radius: 12px !important;
+  border: 1.5px solid #eee !important;
+  padding: 3px 8px !important;
+  background: #f6f8fb !important;
+  box-shadow: 0 3px 12px 0 #0f1a2522;
+  display: inline-block !important;
+}
+
+/* Widget'ın ana select kutusu */
+.goog-te-combo {
+  border-radius: 8px !important;
+  padding: 6px 18px !important;
+  font-size: 1.08rem !important;
+  background: #fff !important;
+  border: 1px solid #ddd !important;
+  color: #232b3a !important;
+  font-family: inherit !important;
+}
+
+/* G simgesini gizle veya küçült (gerekirse) */
+.goog-logo-link, .goog-te-gadget-icon {
+  display: none !important;
+}
